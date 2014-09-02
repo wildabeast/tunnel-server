@@ -1,5 +1,5 @@
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
-Error.stackTraceLimit = Infinity;
+//process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
+//Error.stackTraceLimit = Infinity;
 
 var fs = require('fs');
 var Server = require('tls-tunnel').Server;
